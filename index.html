@@ -99,7 +99,7 @@
 								<audio id="myAudio1" src="audio1.mp3" autoplay loop>
 									Your browser does not support the audio tag.
 								</audio>
-								<i class="play-pause-icon1 fas fa-pause"></i>
+								<i class="play-pause-icon1 fas fa-play"></i>
 								<!-- <div class="simply-countdown simply-countdown-one"></div>
 							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
 							</div>
@@ -577,7 +577,7 @@
 
 		var playPauseIcon = document.querySelector('.play-pause-icon1');
 		var audio = document.getElementById('myAudio1');
-		var isPlaying = true;
+		var isPlaying = false;
 
 		playPauseIcon.addEventListener('click', function () {
 			if (isPlaying) {
